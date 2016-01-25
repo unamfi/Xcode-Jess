@@ -1,0 +1,46 @@
+#!/bin/sh
+
+# resolve links - $0 may be a softlink
+if [ -z "$JESS_HOME" ]; then  
+  PRG="$0"
+
+  while [ -h "$PRG" ]; do
+    ls=`ls -ld "$PRG"`
+    link=`expr "$ls" : '.*-> \(.*\)$'`
+    if expr "$link" : '.*/.*' > /dev/null; then
+      PRG="$link"
+    else
+      PRG=`dirname "$PRG"`/"$link"
+    fi
+  done
+  PRGDIR=`dirname "$PRG"`
+  JESS_HOME=`cd "$PRGDIR/.." ; pwd`
+fi
+
+# Make sure the jar file is there
+if [ ! -f "$JESS_HOME/lib/jess.jar" ]; then
+  echo 
+  echo A required file, \"$JESS_HOME/lib/jess.jar\", is missing.
+  echo Please correct the situation and try again.
+  echo
+  exit
+fi
+
+# Figure out where Java is
+if [ -n "$JAVA_HOME" ]; then
+  JAVA=$JAVA_HOME/bin/java
+else
+  JAVA=java
+fi
+
+# Make sure Java is executable
+if  ! which $JAVA > /dev/null 2>&1 ; then
+  echo 
+  echo \"$JAVA\" is not an executable program or is not on your path.
+  echo Please set the JAVA_HOME environment variable and try again.
+  echo
+  exit
+fi
+
+# Actually run Jess
+${JAVA} -classpath .:${JESS_HOME}/lib/jess.jar:${JESS_HOME}/lib/jsr94.jar:${CLASSPATH} jess.Main $*

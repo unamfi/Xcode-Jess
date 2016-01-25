@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		F4A0E8F018195F3400637418 /* Lógica Difusa.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Lógica Difusa.pdf"; sourceTree = "<group>"; };
+		F4A0E8F118195F3400637418 /* Bayesian Networks 2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Bayesian Networks 2.pdf"; sourceTree = "<group>"; };
+		F4A0E8F218195F3400637418 /* Bayesian Networks.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Bayesian Networks.pdf"; sourceTree = "<group>"; };
+		F4A0E8F318195F3400637418 /* Manejo de la Incertidumbre.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Manejo de la Incertidumbre.pdf"; sourceTree = "<group>"; };
+		F4A0E8F418195F3400637418 /* Frames.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Frames.pdf; sourceTree = "<group>"; };
+		F4A0E8F518195F3400637418 /* Ingeniería del Conocimiento.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Ingeniería del Conocimiento.pdf"; sourceTree = "<group>"; };
+		F4A0E8F618195F3400637418 /* Representación del Conocimiento.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Representación del Conocimiento.pdf"; sourceTree = "<group>"; };
+		F4A0E8F718195F3400637418 /* Sistemas Expertos.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Sistemas Expertos.pdf"; sourceTree = "<group>"; };
+		F4A0E8F8181963A300637418 /* INCENDIOS.clp */ = {isa = PBXFileReference; lastKnownFileType = text; path = INCENDIOS.clp; sourceTree = "<group>"; };
+		F4BEDBE918106B0200FCF6EA /* ARBOLJ.CLP */ = {isa = PBXFileReference; lastKnownFileType = text; name = ARBOLJ.CLP; path = ../bin/ARBOLJ.CLP; sourceTree = "<group>"; };
+		F4BEDBEA18106B0200FCF6EA /* ARCHIVOSJ.CLP */ = {isa = PBXFileReference; lastKnownFileType = text; name = ARCHIVOSJ.CLP; path = ../bin/ARCHIVOSJ.CLP; sourceTree = "<group>"; };
+		F4BEDBEB18106B0200FCF6EA /* Artificial Intelligence, Structures And Strategies For Complex Problem Solving 3rd ed - George F Luger.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Artificial Intelligence, Structures And Strategies For Complex Problem Solving 3rd ed - George F Luger.pdf"; sourceTree = "<group>"; };
+		F4BEDBEC18106B0200FCF6EA /* AVIONJ.CLP */ = {isa = PBXFileReference; lastKnownFileType = text; name = AVIONJ.CLP; path = ../bin/AVIONJ.CLP; sourceTree = "<group>"; };
+		F4BEDBED18106B0200FCF6EA /* BLOQUESJ.CLP */ = {isa = PBXFileReference; lastKnownFileType = text; name = BLOQUESJ.CLP; path = ../bin/BLOQUESJ.CLP; sourceTree = "<group>"; };
+		F4BEDBEE18106B0200FCF6EA /* Conceptual Dependency.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Conceptual Dependency.pdf"; sourceTree = "<group>"; };
+		F4BEDBEF18106B0200FCF6EA /* FUNCS5.CLP */ = {isa = PBXFileReference; lastKnownFileType = text; name = FUNCS5.CLP; path = ../bin/FUNCS5.CLP; sourceTree = "<group>"; };
+		F4BEDBF018106B0200FCF6EA /* JavafromJess.clp */ = {isa = PBXFileReference; lastKnownFileType = text; path = JavafromJess.clp; sourceTree = "<group>"; };
+		F4BEDBF118106B0200FCF6EA /* jess */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = jess; sourceTree = "<group>"; };
+		F4BEDBF218106B0200FCF6EA /* jess.bat */ = {isa = PBXFileReference; lastKnownFileType = text; path = jess.bat; sourceTree = "<group>"; };
+		F4BEDBF318106B0200FCF6EA /* jframe.clp */ = {isa = PBXFileReference; lastKnownFileType = text; path = jframe.clp; sourceTree = "<group>"; };
+		F4BEDBF418106B0200FCF6EA /* MiClase.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = MiClase.class; sourceTree = "<group>"; };
+		F4BEDBF518106B0200FCF6EA /* MiClase.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = MiClase.java; sourceTree = "<group>"; };
+		F4BEDBF618106B0200FCF6EA /* Coling.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Coling.pdf; sourceTree = "<group>"; };
+		F4BEDBF718106B0200FCF6EA /* personas.clp */ = {isa = PBXFileReference; lastKnownFileType = text; name = personas.clp; path = ../bin/personas.clp; sourceTree = "<group>"; };
+		F4BEDBF818106B0200FCF6EA /* Practica2.clp */ = {isa = PBXFileReference; lastKnownFileType = text; path = Practica2.clp; sourceTree = "<group>"; };
+		F4BEDBF918106B0200FCF6EA /* Practica3.clp */ = {isa = PBXFileReference; lastKnownFileType = text; path = Practica3.clp; sourceTree = "<group>"; };
+		F4BEDBFA18106B0200FCF6EA /* Practica3a.clp */ = {isa = PBXFileReference; lastKnownFileType = text; path = Practica3a.clp; sourceTree = "<group>"; };
+		F4BEDBFB18106B0200FCF6EA /* Practica3b.clp */ = {isa = PBXFileReference; lastKnownFileType = text; path = Practica3b.clp; sourceTree = "<group>"; };
+		F4BEDBFC18106B0200FCF6EA /* Practica4a.clp */ = {isa = PBXFileReference; lastKnownFileType = text; path = Practica4a.clp; sourceTree = "<group>"; };
+		F4BEDBFD18106B0200FCF6EA /* Practica4ba.clp */ = {isa = PBXFileReference; lastKnownFileType = text; path = Practica4ba.clp; sourceTree = "<group>"; };
+		F4BEDBFE18106B0200FCF6EA /* Practica4b.clp */ = {isa = PBXFileReference; lastKnownFileType = text; path = Practica4b.clp; sourceTree = "<group>"; };
+		F4BEDBFF18106B0200FCF6EA /* Practica5a.clp */ = {isa = PBXFileReference; lastKnownFileType = text; path = Practica5a.clp; sourceTree = "<group>"; };
+		F4BEDC0018106B0200FCF6EA /* Practica5b.clp */ = {isa = PBXFileReference; lastKnownFileType = text; path = Practica5b.clp; sourceTree = "<group>"; };
+		F4BEDC0118106B0200FCF6EA /* Practica6a.clp */ = {isa = PBXFileReference; lastKnownFileType = text; path = Practica6a.clp; sourceTree = "<group>"; };
+		F4BEDC0218106B0200FCF6EA /* Práctica2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Práctica2.pdf"; sourceTree = "<group>"; };
+		F4BEDC0318106B0200FCF6EA /* Práctica3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Práctica3.pdf"; sourceTree = "<group>"; };
+		F4BEDC0418106B0200FCF6EA /* Práctica4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Práctica4.pdf"; sourceTree = "<group>"; };
+		F4BEDC0518106B0200FCF6EA /* Práctica5.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Práctica5.pdf"; sourceTree = "<group>"; };
+		F4BEDC0618106B0200FCF6EA /* Práctica6.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Práctica6.pdf"; sourceTree = "<group>"; };
+		F4BEDC0718106B0200FCF6EA /* Referencias Tutorial.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Referencias Tutorial.pdf"; sourceTree = "<group>"; };
+		F4BEDC0818106B0200FCF6EA /* REGLAS0J.CLP */ = {isa = PBXFileReference; lastKnownFileType = text; name = REGLAS0J.CLP; path = ../bin/REGLAS0J.CLP; sourceTree = "<group>"; };
+		F4BEDC0918106B0200FCF6EA /* Teclado.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Teclado.class; sourceTree = "<group>"; };
+		F4BEDC0A18106B0200FCF6EA /* Teclado.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = Teclado.java; sourceTree = "<group>"; };
+		F4BEDD3618106B0300FCF6EA /* awtdraw.clp */ = {isa = PBXFileReference; lastKnownFileType = text; path = awtdraw.clp; sourceTree = "<group>"; };
+		F4BEDD3718106B0300FCF6EA /* browse.clp */ = {isa = PBXFileReference; lastKnownFileType = text; path = browse.clp; sourceTree = "<group>"; };
+		F4BEDD3918106B0300FCF6EA /* dilemma.clp */ = {isa = PBXFileReference; lastKnownFileType = text; path = dilemma.clp; sourceTree = "<group>"; };
+		F4BEDD3A18106B0300FCF6EA /* fullmab.clp */ = {isa = PBXFileReference; lastKnownFileType = text; path = fullmab.clp; sourceTree = "<group>"; };
+		F4BEDD3B18106B0300FCF6EA /* hard.clp */ = {isa = PBXFileReference; lastKnownFileType = text; path = hard.clp; sourceTree = "<group>"; };
+		F4BEDD3C18106B0300FCF6EA /* hello.clp */ = {isa = PBXFileReference; lastKnownFileType = text; path = hello.clp; sourceTree = "<group>"; };
+		F4BEDD3D18106B0300FCF6EA /* jframe.clp */ = {isa = PBXFileReference; lastKnownFileType = text; path = jframe.clp; sourceTree = "<group>"; };
+		F4BEDD3E18106B0300FCF6EA /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		F4BEDD3F18106B0300FCF6EA /* stack.clp */ = {isa = PBXFileReference; lastKnownFileType = text; path = stack.clp; sourceTree = "<group>"; };
+		F4BEDD4018106B0300FCF6EA /* sticks.clp */ = {isa = PBXFileReference; lastKnownFileType = text; path = sticks.clp; sourceTree = "<group>"; };
+		F4BEDD4118106B0300FCF6EA /* swingdraw.clp */ = {isa = PBXFileReference; lastKnownFileType = text; path = swingdraw.clp; sourceTree = "<group>"; };
+		F4BEDD4218106B0300FCF6EA /* wordgame.clp */ = {isa = PBXFileReference; lastKnownFileType = text; path = wordgame.clp; sourceTree = "<group>"; };
+		F4BEDD4318106B0300FCF6EA /* zebra.clp */ = {isa = PBXFileReference; lastKnownFileType = text; path = zebra.clp; sourceTree = "<group>"; };
+		F4BEDD5C18106B0300FCF6EA /* jess.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = jess.jar; sourceTree = "<group>"; };
+		F4BEDD5D18106B0400FCF6EA /* JessML1_0.xsd */ = {isa = PBXFileReference; lastKnownFileType = text; path = JessML1_0.xsd; sourceTree = "<group>"; };
+		F4BEDD5E18106B0400FCF6EA /* jsr94.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = jsr94.jar; sourceTree = "<group>"; };
+		F4BEDD651810705300FCF6EA /* Documentación de Fuzzy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Documentación de Fuzzy"; sourceTree = "<group>"; };
+		F4E5F11F1822E4CF00AC05FF /* Red de inferencias */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Red de inferencias"; sourceTree = "<group>"; };
+		F4F527BC17D8C7E4007E4830 /* Main.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = Main.java; sourceTree = "<group>"; };
+		F4FEEEBB181ECEFE00412909 /* Practica5c.clp */ = {isa = PBXFileReference; lastKnownFileType = text; path = Practica5c.clp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		F4BEDBE818106B0200FCF6EA /* Jess WorkSpace */ = {
+			isa = PBXGroup;
+			children = (
+				F4BEDD3518106B0300FCF6EA /* Jess examples */,
+				F4BEDD5F18106E1B00FCF6EA /* Bibliografía y Referencias */,
+				F4BEDBF018106B0200FCF6EA /* JavafromJess.clp */,
+				F4BEDBF118106B0200FCF6EA /* jess */,
+				F4BEDBF218106B0200FCF6EA /* jess.bat */,
+				F4BEDBF318106B0200FCF6EA /* jframe.clp */,
+				F4BEDBF418106B0200FCF6EA /* MiClase.class */,
+				F4BEDBF518106B0200FCF6EA /* MiClase.java */,
+				F4BEDD651810705300FCF6EA /* Documentación de Fuzzy */,
+				F4E5F11F1822E4CF00AC05FF /* Red de inferencias */,
+				F4BEDD6018106EA500FCF6EA /* Práctica 2 */,
+				F4BEDD6118106EB500FCF6EA /* Práctica 3 */,
+				F4BEDD6218106EC400FCF6EA /* Práctica 4 */,
+				F4BEDD6318106EDD00FCF6EA /* Práctica 5 */,
+				F4BEDD6418106F4300FCF6EA /* Práctica 6 */,
+				F4BEDC0918106B0200FCF6EA /* Teclado.class */,
+				F4BEDC0A18106B0200FCF6EA /* Teclado.java */,
+			);
+			name = "Jess WorkSpace";
+			path = bin;
+			sourceTree = "<group>";
+		};
+		F4BEDD3518106B0300FCF6EA /* Jess examples */ = {
+			isa = PBXGroup;
+			children = (
+				F4BEDBF718106B0200FCF6EA /* personas.clp */,
+				F4BEDBE918106B0200FCF6EA /* ARBOLJ.CLP */,
+				F4BEDC0818106B0200FCF6EA /* REGLAS0J.CLP */,
+				F4BEDBEA18106B0200FCF6EA /* ARCHIVOSJ.CLP */,
+				F4BEDBEC18106B0200FCF6EA /* AVIONJ.CLP */,
+				F4BEDBED18106B0200FCF6EA /* BLOQUESJ.CLP */,
+				F4BEDBEF18106B0200FCF6EA /* FUNCS5.CLP */,
+				F4BEDD3618106B0300FCF6EA /* awtdraw.clp */,
+				F4BEDD3718106B0300FCF6EA /* browse.clp */,
+				F4BEDD3918106B0300FCF6EA /* dilemma.clp */,
+				F4BEDD3A18106B0300FCF6EA /* fullmab.clp */,
+				F4BEDD3B18106B0300FCF6EA /* hard.clp */,
+				F4BEDD3C18106B0300FCF6EA /* hello.clp */,
+				F4BEDD3D18106B0300FCF6EA /* jframe.clp */,
+				F4BEDD3E18106B0300FCF6EA /* README */,
+				F4BEDD3F18106B0300FCF6EA /* stack.clp */,
+				F4BEDD4018106B0300FCF6EA /* sticks.clp */,
+				F4BEDD4118106B0300FCF6EA /* swingdraw.clp */,
+				F4BEDD4218106B0300FCF6EA /* wordgame.clp */,
+				F4BEDD4318106B0300FCF6EA /* zebra.clp */,
+			);
+			name = "Jess examples";
+			path = ../jess;
+			sourceTree = "<group>";
+		};
+		F4BEDD5B18106B0300FCF6EA /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				F4BEDD5C18106B0300FCF6EA /* jess.jar */,
+				F4BEDD5D18106B0400FCF6EA /* JessML1_0.xsd */,
+				F4BEDD5E18106B0400FCF6EA /* jsr94.jar */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		F4BEDD5F18106E1B00FCF6EA /* Bibliografía y Referencias */ = {
+			isa = PBXGroup;
+			children = (
+				F4A0E8F018195F3400637418 /* Lógica Difusa.pdf */,
+				F4A0E8F118195F3400637418 /* Bayesian Networks 2.pdf */,
+				F4A0E8F218195F3400637418 /* Bayesian Networks.pdf */,
+				F4A0E8F318195F3400637418 /* Manejo de la Incertidumbre.pdf */,
+				F4A0E8F418195F3400637418 /* Frames.pdf */,
+				F4A0E8F518195F3400637418 /* Ingeniería del Conocimiento.pdf */,
+				F4A0E8F618195F3400637418 /* Representación del Conocimiento.pdf */,
+				F4A0E8F718195F3400637418 /* Sistemas Expertos.pdf */,
+				F4BEDC0718106B0200FCF6EA /* Referencias Tutorial.pdf */,
+				F4BEDBEB18106B0200FCF6EA /* Artificial Intelligence, Structures And Strategies For Complex Problem Solving 3rd ed - George F Luger.pdf */,
+				F4BEDBEE18106B0200FCF6EA /* Conceptual Dependency.pdf */,
+				F4BEDBF618106B0200FCF6EA /* Coling.pdf */,
+			);
+			name = "Bibliografía y Referencias";
+			sourceTree = "<group>";
+		};
+		F4BEDD6018106EA500FCF6EA /* Práctica 2 */ = {
+			isa = PBXGroup;
+			children = (
+				F4BEDBF818106B0200FCF6EA /* Practica2.clp */,
+				F4BEDC0218106B0200FCF6EA /* Práctica2.pdf */,
+			);
+			name = "Práctica 2";
+			sourceTree = "<group>";
+		};
+		F4BEDD6118106EB500FCF6EA /* Práctica 3 */ = {
+			isa = PBXGroup;
+			children = (
+				F4BEDBF918106B0200FCF6EA /* Practica3.clp */,
+				F4BEDBFA18106B0200FCF6EA /* Practica3a.clp */,
+				F4BEDBFB18106B0200FCF6EA /* Practica3b.clp */,
+				F4BEDC0318106B0200FCF6EA /* Práctica3.pdf */,
+			);
+			name = "Práctica 3";
+			sourceTree = "<group>";
+		};
+		F4BEDD6218106EC400FCF6EA /* Práctica 4 */ = {
+			isa = PBXGroup;
+			children = (
+				F4BEDBFC18106B0200FCF6EA /* Practica4a.clp */,
+				F4BEDBFD18106B0200FCF6EA /* Practica4ba.clp */,
+				F4BEDBFE18106B0200FCF6EA /* Practica4b.clp */,
+				F4BEDC0418106B0200FCF6EA /* Práctica4.pdf */,
+			);
+			name = "Práctica 4";
+			sourceTree = "<group>";
+		};
+		F4BEDD6318106EDD00FCF6EA /* Práctica 5 */ = {
+			isa = PBXGroup;
+			children = (
+				F4BEDBFF18106B0200FCF6EA /* Practica5a.clp */,
+				F4BEDC0018106B0200FCF6EA /* Practica5b.clp */,
+				F4FEEEBB181ECEFE00412909 /* Practica5c.clp */,
+				F4BEDC0518106B0200FCF6EA /* Práctica5.pdf */,
+			);
+			name = "Práctica 5";
+			sourceTree = "<group>";
+		};
+		F4BEDD6418106F4300FCF6EA /* Práctica 6 */ = {
+			isa = PBXGroup;
+			children = (
+				F4BEDC0118106B0200FCF6EA /* Practica6a.clp */,
+				F4A0E8F8181963A300637418 /* INCENDIOS.clp */,
+				F4BEDC0618106B0200FCF6EA /* Práctica6.pdf */,
+			);
+			name = "Práctica 6";
+			sourceTree = "<group>";
+		};
+		F4F527B117D8C7D1007E4830 = {
+			isa = PBXGroup;
+			children = (
+				F4F527BC17D8C7E4007E4830 /* Main.java */,
+				F4BEDBE818106B0200FCF6EA /* Jess WorkSpace */,
+				F4BEDD5B18106B0300FCF6EA /* lib */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		F4F527B617D8C7D1007E4830 /* JavaJessXcode */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = F4F527B917D8C7D1007E4830 /* Build configuration list for PBXLegacyTarget "JavaJessXcode" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/java;
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = JavaJessXcode;
+			passBuildSettingsInEnvironment = 1;
+			productName = Java;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		F4F527B217D8C7D1007E4830 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Julio César Guzmán";
+			};
+			buildConfigurationList = F4F527B517D8C7D1007E4830 /* Build configuration list for PBXProject "JavaJessXcode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F4F527B117D8C7D1007E4830;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4F527B617D8C7D1007E4830 /* JavaJessXcode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		F4F527B717D8C7D1007E4830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F4F527B817D8C7D1007E4830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F4F527BA17D8C7D1007E4830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = JavaJessXcode;
+			};
+			name = Debug;
+		};
+		F4F527BB17D8C7D1007E4830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = JavaJessXcode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4F527B517D8C7D1007E4830 /* Build configuration list for PBXProject "JavaJessXcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4F527B717D8C7D1007E4830 /* Debug */,
+				F4F527B817D8C7D1007E4830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4F527B917D8C7D1007E4830 /* Build configuration list for PBXLegacyTarget "JavaJessXcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4F527BA17D8C7D1007E4830 /* Debug */,
+				F4F527BB17D8C7D1007E4830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4F527B217D8C7D1007E4830 /* Project object */;
+}

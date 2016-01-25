@@ -1,0 +1,26 @@
+----------------------------------------------------------------------
+                       README for Jess examples
+----------------------------------------------------------------------
+This directory contains simple examples of Jess rule files.  Mot of
+these files are just tiny snippets of code used for testing various
+Jess features. A few of them are entire programs (zebra.clp,
+wordgame.clp, fullmab.clp). Some of them are interactive (sticks.clp,
+animal.clp). Don't read too much into them, but they give you an idea
+of what a simple rule-based system looks like. hard.clp is an example of a
+really badly written rule that is very slow.
+
+To run the animal.clp program, the data file animal.dat must be in the
+examples/ subdirctory of your current directory.
+
+browse.clp is an example of the world's smallest Web browser. You might
+have to change the URL to get it to work for you. 
+
+console.html is a web page that embeds the Jess generic applet class
+jess.ConsoleApplet. 
+
+backchain.clp is a very simple example of the new backwards chaining
+facility. 
+
+jframe.clp is a very simple example of building a Swing GUI entirely
+from Jess. awtdraw.clp and swingdraw.clpare small GUIs that do
+screen-painting in AWT and in Swing.
